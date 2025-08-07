@@ -1,0 +1,62 @@
+[
+  {
+    "group": "token_awareness",
+    "task": "freq_count",
+    "files": [
+      "tasks/token_awareness/freq_count/chinese.csv",
+      "tasks/token_awareness/freq_count/english.csv",
+      "tasks/token_awareness/freq_count/korean.csv"
+    ],
+    "evaluation": "number"
+  },
+  {
+    "group": "token_awareness",
+    "task": "sentence_length",
+    "files": [
+      "tasks/token_awareness/sentence_length/chinese.csv",
+      "tasks/token_awareness/sentence_length/english.csv",
+      "tasks/token_awareness/sentence_length/korean.csv"
+    ],
+    "evaluation": "number"
+  },
+  {
+    "group": "token_awareness",
+    "task": "sentence_length",
+    "files": [
+      "tasks/token_awareness/sentence_length/chinese_generate.csv",
+      "tasks/token_awareness/sentence_length/english_generate.csv",
+      "tasks/token_awareness/sentence_length/korean_generate.csv"
+    ],
+    "evaluation": "length"
+  },
+  {
+    "group": "token_awareness",
+    "task": "sort_lengths",
+    "files": [
+      "tasks/token_awareness/sort_lengths/chinese.csv",
+      "tasks/token_awareness/sort_lengths/english.csv",
+      "tasks/token_awareness/sort_lengths/korean.csv"
+    ],
+    "evaluation": "match_answer"
+  },
+  {
+    "group": "token_awareness",
+    "task": "shuffle_tokens",
+    "files": [
+      "tasks/token_awareness/shuffle_tokens/chinese.csv",
+      "tasks/token_awareness/shuffle_tokens/english.csv",
+      "tasks/token_awareness/shuffle_tokens/korean.csv"
+    ],
+    "evaluation": "shuffle"
+  },
+  {
+    "group": "token_awareness",
+    "task": "diff_tokens",
+    "files": [
+      "tasks/token_awareness/diff_tokens/chinese.csv",
+      "tasks/token_awareness/diff_tokens/english.csv",
+      "tasks/token_awareness/diff_tokens/korean.csv"
+    ],
+    "evaluation": "diff"
+  }
+]

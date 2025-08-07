@@ -1,0 +1,62 @@
+[
+  {
+    "group": "token_structure",
+    "task": "variant_normalize",
+    "files": [
+      "tasks/token_structure/variant_normalize/chinese.csv",
+      "tasks/token_structure/variant_normalize/digital.csv",
+      "tasks/token_structure/variant_normalize/english.csv"
+    ],
+    "evaluation": "match_answer"
+  },
+  {
+    "group": "token_structure",
+    "task": "dot_matrix",
+    "files": [
+      "tasks/token_structure/dot_matrix/bitmap_classification_final.csv",
+      "tasks/token_structure/dot_matrix/bitmap_type_classification.csv",
+      "tasks/token_structure/dot_matrix/char_classification.csv"
+    ],
+    "evaluation": "match_answer"
+  },
+  {
+    "group": "token_structure",
+    "task": "component_split",
+    "files": [
+      "tasks/token_structure/component_split/zh_combine.csv",
+      "tasks/token_structure/component_split/kor_combine.csv",
+      "tasks/token_structure/component_split/en_combine.csv"
+    ],
+    "evaluation": "match_answer"
+  },
+  {
+    "group": "token_structure",
+    "task": "component_split",
+    "files": [
+      "tasks/token_structure/component_split/zh_split.csv",
+      "tasks/token_structure/component_split/kor_split.csv",
+      "tasks/token_structure/component_split/en_split.csv"
+    ],
+    "evaluation": "split"
+  },
+  {
+    "group": "token_structure",
+    "task": "component_count",
+    "files": [
+      "tasks/token_structure/component_count/chinese.csv",
+      "tasks/token_structure/component_count/english.csv",
+      "tasks/token_structure/component_count/korean.csv"
+    ],
+    "evaluation": "number"
+  },
+  {
+    "group": "token_structure",
+    "task": "structure_riddle",
+    "files": [
+      "tasks/token_structure/structure_riddle/chinese.csv",
+      "tasks/token_structure/structure_riddle/english.csv",
+      "tasks/token_structure/structure_riddle/korean.csv"
+    ],
+    "evaluation": "match_answer"
+  }
+]

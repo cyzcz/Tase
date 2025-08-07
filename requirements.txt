@@ -1,0 +1,9 @@
+tqdm~=4.67.1
+pandas~=2.2.3
+numpy~=1.26.3
+pillow~=10.2.0
+hgtk~=0.2.1
+openai~=1.78.1
+pyyaml~=6.0.2
+transformers~=4.47.1
+vllm>=0.7.2
