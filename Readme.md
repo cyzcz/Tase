@@ -15,7 +15,7 @@ TASE is a multilingual benchmark that probes **fine-grained token perception** a
 
 Each task ships with
 
-- a **synthetic data pipeline** (`dataset/`, `generate_code/`)
+- a **synthetic data pipeline** (`tasks/`, `generate_code/`)
 - ready-made **YAML configs** (all stored in **`yamls/`**)
 - automatic **metrics & evaluation** scripts (`evaluate/`)
 
